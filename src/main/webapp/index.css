@@ -1,0 +1,30 @@
+@charset "EUC-KR";
+
+#title {
+		width: 500px;
+	}
+	
+table {
+	width: 900px;
+	border-collapse: collapse;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+tr {
+	border-bottom: 1px solid black;
+}
+
+td>a {
+	text-decoration : none;
+	color: black;
+}
+
+td>a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+th {
+	padding: 5px;
+}
